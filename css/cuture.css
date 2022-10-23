@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=IBM+Plex+Serif:wght@400;700&family=Jura&family=Love+Ya+Like+A+Sister&family=Merriweather:wght@700&family=Montserrat:wght@300&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=IBM+Plex+Serif:wght@400;700&family=Jura&family=Love+Ya+Like+A+Sister&family=Merriweather:wght@700&family=Montserrat:wght@300&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fuzzy+Bubbles&family=IBM+Plex+Serif:wght@400;700&family=Jura&family=Love+Ya+Like+A+Sister&family=Merriweather:wght@700&family=Montserrat:wght@300&family=Open+Sans:ital@1&display=swap');
+
+/* html { font-size:100%;
+    main:100%;
+ } */
+
+.navi{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15rem;
+    padding: 1rem;
+    background-color: rgb(167, 156, 131);
+}
+.navi a{
+  text-decoration: none;
+
+}
+
+.cultural{
+display: flex;
+flex-direction: row;
+gap: 10px;
+width: 90%;
+
+
+}
+.cultural img{
+    width: 100%;
+    /* width: 40rem; */
+    height: 30rem;
+    padding-top: 3rem;
+}
+
+h2{
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 5px;
+}
+
+
+.footer{
+display:flex;
+gap: 20px;
+justify-content: center;
+} 
+footer{
+
+    background-color: gray;
+
+}
+i{
+ align-self: center;
+    padding-left: 10px;
+}
+@media screen  and (max-width:700px){
+    .cultural{
+        flex-direction: column;
+    }
+    .navi{
+        flex-direction: column;
+        }
+}
